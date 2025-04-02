@@ -92,13 +92,13 @@ authsystem/
 ## Screenshots 📸
 
 ### Login Page
-![Login Page](https://via.placeholder.com/800x400?text=Login+Page)
+![Login Page](https://github.com/user-attachments/assets/501dd8ce-f15b-48c5-832b-38a2bf908b77)
 
 ### Registration Page
-![Registration Page](https://via.placeholder.com/800x400?text=Registration+Page)
+![Registration Page](https://github.com/user-attachments/assets/80649c9c-eae5-4727-a629-bc77b8329577)
 
-### Welcome Page
-![Welcome Page](https://via.placeholder.com/800x400?text=Welcome+Page)
+### Sucess Login Page
+![Sucess Login Page](https://github.com/user-attachments/assets/c1ed2e40-11e7-4bf1-97c5-09ace2193fe5)
 
 ## License 📄
 
