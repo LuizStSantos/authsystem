@@ -67,14 +67,10 @@ authsystem/
 2. **Configure the database**:
    - Create a PostgreSQL database named `users`.
    - Update the `DataConfiguration.java` file with your database credentials:
-     ```DataConfiguration.java
-    public DataSource dataSource(){
-        DriverManagerDataSource dataSource= new DriverManagerDataSource();
-        dataSource.setDriverClassName("org.postgresql.Driver");
+     ```DataConfiguration
         dataSource.setUrl("jdbc:postgresql://localhost:5432/users?serverTimezone=UTC");
         dataSource.setUsername("your_username");
         dataSource.setPassword("your_password");
-        return dataSource;
      ```
 
 3. **Build and run the application**:
