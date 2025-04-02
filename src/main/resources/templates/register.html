@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Login</title>
+    <title>Register</title>
     <style>
       body {
         background-color: #2d2a2e;
@@ -30,8 +30,12 @@
   </head>
   <body>
     <div class="custom-box">
-      <h2>Login</h2>
-      <form method="post">
+      <h2>Register</h2>
+      <form action="/register" method="post">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="name" class="form-control" id="username" placeholder="Enter your username">
+          </div>
         <div class="form-group">
           <label for="email">Email address</label>
           <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
@@ -40,9 +44,12 @@
           <label for="password">Password</label>
           <input type="password" name="password" class="form-control" id="password" placeholder="Enter your password">
         </div>
+        <div class="form-group">
+            <label for="confirmPassword">Repeat Password</label>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Re-enter your password">
+          </div>
         <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
-        <a href="/register" class="text-light register-link btn-block mt-2">Register</a>
-        <div th:if="${error != null}" th:text="${error}" class="alert alert-danger" role="alert"></div>
+        <a href="/login" class="text-light Back-link btn-block mt-2">Back</a>
       </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
